@@ -8,7 +8,7 @@ export default function ItemListContainer(){
     const restar = () => { setContador(contador -1)}
     const limpiar = () => { setContador(0)}
 
-    return(
+    return( 
         <>
         <div>Hola, bienvenidx a la tienda!</div>
         <div>
