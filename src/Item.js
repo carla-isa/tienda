@@ -1,21 +1,21 @@
 import React from "react";
-import { NavLink } from "react-router-dom"
 
 
 function Item ({id, title, price, pictureUrl}){
     return(
         <>
-        <div className="col s6 m4 l3">
-            <div className="card">
-                <div className="card-image">
+        return (
+            <div className="card-container">
+                <div className="img-container">
                     <img src={pictureUrl} alt=""/>
                 </div>
-                <div className="card-content">
-                    <span className="card-title-truncate">{title}</span>
-                    <p>{price}</p>
+                <div className="info-container">
+                    <p className="id-code">COD: {id}</p>
+                    <p className='title'>{title}</p>
+                    <p className='price'>${price}</p>
                 </div>
             </div>
-        </div>
+        
         </>
     )
 }
