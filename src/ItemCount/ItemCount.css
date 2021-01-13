@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .item-counter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #F3D7D1;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-radius: 0px 0px 2px 2px;
+  }
+  
+  .item-counter .counter-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    background-color:  #F3D7D1;
+    border-radius: 2px;
+    padding: 0 2px;
+    font-weight:700;
+  }
+  
+  .item-counter .counter-container .counter-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: unset;
+    -webkit-box-shadow: 0px 0px 3px 1px #3D3D3D;
+            box-shadow: 0px 0px 3px 1px #3D3D3D;
+  }
+  
+  .item-counter .counter-container .counter-btn p {
+    color:  #275A34;
+    font-size: 22px;
+  }
+  
+  .item-counter .counter-container .counter-value {
+    color: #275A34;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  .item-counter .btn {
+    color: #F3D7D1;
+    font-weight: 600;
+    background-color:#275A34;
+  }
+  
+  .go-cart {
+    background-color:#275A34;
+    padding: 5px;
+  }
+  
+  .go-cart .btn {
+    color:#275A34;
+    font-weight: 600;
+    background-color:#F3D7D1;
+    width: 100%;
+    height: 70px;
+    -webkit-animation: appear .7s;
+            animation: appear .7s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .go-cart .btn:hover {
+    font-size: 18px;
+  }
+  
+  .go-cart .btn .cart {
+    margin-left: 2%;
+  }
+  
+  @-webkit-keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
