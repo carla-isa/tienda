@@ -1,3 +1,0 @@
-const resultado = if (condicional) { return a }else{return b}
-
-const resultado = const ? a : b
